@@ -1,0 +1,79 @@
+.cHeader{
+    background-color: #4E6E81;
+    color: white;
+}
+.cgradien{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        90deg, rgba(2,0,36,1) 0%, 
+        #E1EEDD 29%, 
+        #4E6E81 100%
+    );
+    color: black !important;
+}
+.cgFormDark{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        0deg, #4E6E81 0%, 
+        #2C3333,
+        #2E3840
+    );
+    color: black !important;
+}
+
+.cgradienFooter{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        90deg, rgba(2,0,36,1) -110%, 
+        rgb(199, 244, 255) 50%, 
+        rgb(255, 255, 255) 100%
+    );
+}
+.bgForm{
+    background-color: #C9EEFF;
+}
+.bgItem{
+    background-color: #FEFAE0;
+}
+.bsearch{
+    background-color: white !important;
+}
+
+.btras{background-color: transparent;}
+.btry1{background-color: #539165;}
+.btry11{background-color: #3F497F;}
+.btry111{background-color: #F7C04A;}
+
+
+/* batas paten nda berubah */
+.cwhite{color: white !important;}
+.cblack{color: black !important;}
+.dhaki{color: darkkhaki !important;}
+.bdhaki{background-color: darkkhaki !important;}
+.cred{color: red !important;}
+.bbnone{background: none; border: none;}
+.bnone{background: none;}
+.bgreend1{background-color: #2E4F4F;}
+.bgreend2{background-color: #0E8388;}
+.cgreend1{color: #2E4F4F;}
+.cgreend2{color: #0E8388;}
+
+.cgray{color: #CBE4DE;}
+.bgray{background-color: #CBE4DE;}
+.cgray1{color: #F5EAEA;}
+.bgray1{background-color: #F5EAEA;}
+
+
+.byellow1{background-color: #FFB84C;}
+.byellow2{background-color: #FBFFB1;}
+
+.cbGray{border:3px #ECF2FF solid; }
+.cbblue{border:3px #BFDCE5 solid;}
+.cbblue1{border:3px #3E54AC solid;}
+.cbblue2{border:3px #0F6292 solid;}
+.cbgrend{border:3px #3C84AB solid;}
+.cbyellow{border:3px #FFDD83 solid;}
+
+.bwhiteAlfa10{
+    background-color: rgb(255, 255, 255,0.1);
+}

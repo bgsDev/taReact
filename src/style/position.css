@@ -1,0 +1,17 @@
+.jcBetween{justify-content: space-between;}
+.jcCenter{justify-content: center;}
+.talgC{text-align: center;}
+.talgL{text-align: left;}
+.talgR{text-align: end;}
+.talgJ{text-align: justify;}
+
+
+.algIC{align-items: center;} 
+.algIL{align-items: start;}
+.algIR{align-items: end;}
+
+.algSC{align-self: center;} 
+.algSL{align-self: start;}
+.algSR{align-self: end;}
+
+.mauto{margin: auto;}

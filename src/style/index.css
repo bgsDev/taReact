@@ -1,0 +1,102 @@
+@import url('./paddingMargin.css');
+@import url('./widthHeight.css');
+@import url('./position.css');
+@import url('./font.css');
+@import url('./color.css');
+@import url('./box.css');
+.dflex{
+    display: flex;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.flexDC{
+    display: flex;
+    flex-direction: column;
+}
+.flexDR{
+    display: flex;
+    flex-direction: row;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.dblock{
+    display: block;
+}
+.pabsolete{
+    position: absolute;
+}
+.containerMFC1{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid2row{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.grid3row{
+    display: grid;
+    grid-template-columns: 35% 35% 25%; 
+}
+.grid2row80{
+    display: grid;
+    grid-template-columns:78% 20%; 
+}
+.grid2row20{
+    display: grid;
+    grid-template-columns:20% 78%; 
+}
+.grid2row70{
+    display: grid;
+    grid-template-columns:68% 30%; 
+}
+@media only screen and (max-width : 600px){
+    .grid2row{
+        grid-template-columns: 100% !important;
+        grid-template-rows: 1fr 1fr !important;
+    }
+    .grid3row{
+        grid-template-columns: 100% !important;
+        grid-template-rows:repeat(3, 1fr) !important;
+    }
+    .grid2row80{
+        grid-template-columns: 100% !important;
+        grid-template-rows: 1fr 1fr !important;
+    }
+    .grid2row20{
+        grid-template-columns: 100% !important;
+        grid-template-rows: 1fr 1fr !important;
+    }
+    .grid2row70{
+        grid-template-columns: 100% !important;
+        grid-template-rows: 1fr 1fr !important;
+    }
+}
+
+.btnLink{
+    padding: 16px;
+    color: black;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.maxBtnLink{
+    max-height: 44px;
+}
+.minBtnIcon{
+    min-width: 70px;
+}
+
+
+/* bertanda _ siap di del atau diperbarui  */
+._bg{
+    background-image: url('https://media.licdn.com/dms/image/D5603AQHPPSGaC2pI7Q/profile-displayphoto-shrink_200_200/0/1674689201476?e=1683763200&v=beta&t=BfYwpzj1wYH2Hm6wF905fpI0hAFz7Dgi6NgXlILVVgk');;
+    background-size: cover;
+}
+.loading {
+    position: sticky;
+    top: 0;
+}

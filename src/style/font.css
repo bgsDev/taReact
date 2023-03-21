@@ -1,0 +1,29 @@
+@font-face {
+    font-family:'Oswald';
+    src: url('./font/Oswald/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family:'Quicksand';
+    src: url('./font/Quicksand/Quicksand-Bold.ttf');
+}
+@font-face {
+    font-family:'QuicksandLight';
+    src: url('./font/Quicksand/Quicksand-Light.ttf');
+}
+
+.OswaldBold{font-family: 'Oswald', Tahoma, Geneva, Verdana, sans-serif;}
+.QuicksandBold{font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;}
+.QuicksandLight{font-family: 'QuicksandLight', Tahoma, Geneva, Verdana, sans-serif;}
+
+.fz10{font-size: 10px;}
+.fz12{font-size: 12px;}
+.fz14{font-size: 14px;}
+.fz15{font-size: 15px;}
+.fz16{font-size: 16px;}
+.fz20{font-size: 20px;}
+.fz25{font-size: 25px;}
+.fz30{font-size: 30px;}
+.fz40{font-size: 40px;}
+.fz50{font-size: 50px;}
+
+.tupper{text-transform: uppercase;}
